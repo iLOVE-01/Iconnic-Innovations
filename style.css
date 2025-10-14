@@ -144,7 +144,7 @@ body {
 
 @media (max-width: 480px) {
     .carousel-caption.custom-caption {
-        top: 70%;
+        top: 60%;
         padding: 10px 15px;
         line-height: 22px;
         font-size: 12px;
