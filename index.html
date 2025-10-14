@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pictures/logo-crimson-red.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <!-- 🌀 Preloader Section -->
+    <div id="preloader">
+        <img src="pictures/logo-crimson-red.png" alt="Loading..." id="loader-logo">
+    </div>
+
+    <!-- 🌀 Main Content Section -->
+    <div id="main-content" style="display: none;">
+        <nav
+            class="navbar navbar-expand-lg bg-body-tertiary p-lg-3 header d-flex align-items-center light-background sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand col-2 fs-6 align-items-start justify-content-center fw-medium" href="index.html">
+                    <img src="pictures/logo-crimson-red.png" alt="Logo" width="30" height="24"
+                        class="d-inline-block align-text-top">
+                    Iconic Innovations
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul
+                        class="navbar-nav col-9 me-auto mb-2 mb-lg-0 align-items-lg-center text-lg-center justify-content-lg-center d-lg-flex gap-lg-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle fw-medium" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                ABOUT US
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle fw-medium" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                OUR BRANCHES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle fw-medium" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                OUR SDGs & GOALS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-medium" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex col-3" role="search">
+                        <input class="form-control me-2 inputSearch" type="search" placeholder="Search"
+                            aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- ✅ Carousel Container -->
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+            data-bs-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pictures/Real Estate.jpg" class="d-block w-100" alt="real estate">
+                </div>
+                <div class="carousel-item">
+                    <img src="pictures/Real Estate 2.jpg" class="d-block w-100" alt="real estate">
+                </div>
+                <div class="carousel-item">
+                    <img src="pictures/graphics.jpg" class="d-block w-100" alt="graphics">
+                </div>
+                <div class="carousel-item">
+                    <img src="pictures/demure.jpg" class="d-block w-100" alt="Demure">
+                </div>
+                <div class="carousel-item">
+                    <img src="pictures/steptodown.com293618.jpg" class="d-block w-100" alt="Interior Deco">
+                </div>
+                <div class="carousel-item">
+                    <img src="pictures/Interior design.jpg" class="d-block w-100" alt="Interior decoration">
+                </div>
+            </div>
+
+            <!-- ✅ Static Caption (same for all images) -->
+            <div class="carousel-caption custom-caption">
+                <h2 class="text-center justify-content-center">Building a Legacy of Innovation, style and Impact</h2>
+                <p class="fs-5">We deliver products & services that inspire, and transform lives. <br>
+                    Software & App Development | Real Estate | Interior & Exterior Design | Graphics Design</p>
+            </div>
+
+            <!-- Optional Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+
+        <div class="pb-lg-5 pb-3" style="background-color: #F9F9F9;">
+            <div class="container py-lg-4 py-3 aboutUsTexts">
+                <a class="learn-link fs-4" href="about.html">
+                    LEARN MORE ABOUT US
+                </a>
+                <p class="fs-5">
+                    Iconic Innovations Nigeria Limited is a multi-disciplinary company committed to redefining
+                    industries through innovation, excellence, and creative expression. We operate across various
+                    sectors, from real estate and technology to design and fashion delivering premium, sustainable, and
+                    forward-thinking products and services that inspire and empower individuals, businesses, and
+                    communities across Nigeria, Africa and beyond.
+                </p>
+            </div>
+            <div class="discover container py-lg-4 my-3">
+                <h2>Discover our Full Range of Services</h2>
+                <p class="py-lg-3 py-2">Explore our diverse branches shaping industries with innovation and excellence.
+                </p>
+            </div>
+            <div class="services">
+                <div class="img-container">
+                    <img class="img-fluid" src="pictures/tech5.jpg" alt="">
+                    <h5 class="img-text">
+                        Iconic Technologies
+                    </h5>
+                </div>
+                <div class="img-container">
+                    <img class="img-fluid" src="pictures/real-estate1.jpg" alt="">
+                    <h5 class="img-text">
+                        Iconic Properties
+                    </h5>
+                </div>
+                <div class="img-container">
+                    <img class="img-fluid" src="pictures/pain1.jpg" alt="">
+                    <h5 class="img-text">
+                        Iconic Interiors
+                    </h5>
+                </div>
+                <div class="img-container">
+                    <img class="img-fluid" src="pictures/design2.jpg" alt="">
+                    <h5 class="img-text">
+                        Iconic Graphics
+                    </h5>
+                </div>
+            </div>
+            <div class="align-items-center text-center justify-content-center mt-lg-5 mt-3">
+                <button class="button fs-5">Book a Consultation With Us</button>
+            </div>
+        </div>
+        <div class="core-values p-lg-5 p-3">
+            <div class="text-center align-items-center justify-content-center pb-lg-4 p-2">
+                <h2 style="color: #333;">
+                    Our Core Values
+                </h2>
+                <p style="color: #666666;">
+                    The principles that guide every step we take.
+                </p>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
