@@ -144,7 +144,7 @@ body {
 
 @media (max-width: 480px) {
     .carousel-caption.custom-caption {
-        top: 70%;
+        top: 80%;
         padding: 10px 15px;
         line-height: 20px;
     }
@@ -179,17 +179,24 @@ body {
     font-size: 20px;
 }
 
+.aboutPara {
+    font-size: 1.1rem !important;
+}
+
 @media (max-width: 480px) {
     .aboutUsTexts {
         width: 90%;
         font-size: 26px;
         line-height: 22px;
     }
+    .aboutPara {
+    font-size: 0.85rem !important;
+    line-height: 18px;
+    margin-top: 10px;
 }
 
-.aboutUsTexts p {
-    font-size: 18px !important;
 }
+
 
 .discover h2 {
     display: flex;
