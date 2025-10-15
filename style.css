@@ -241,6 +241,8 @@ body {
     height: 250px;
     overflow: hidden;
     position: relative;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #666;
 }
 
 .img-container:hover .img-fluid {
@@ -263,7 +265,7 @@ body {
 .img-text {
     opacity: 0;
     position: absolute;
-    top: 91%;
+    top: 91.5%;
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
