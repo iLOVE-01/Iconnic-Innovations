@@ -294,7 +294,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
     transition: translateY 1s ease-in-out,
-        opacity .5s ease-in-out;
+        opacity .2s ease-in-out;
 }
 
 @media (max-width: 480px) {
@@ -312,6 +312,7 @@ body {
 
 .button:active {
     transform: translateY(3px);
+    opacity: 1;
 }
 
 .values-wrapper {
@@ -459,4 +460,101 @@ body {
 .nav-button.next {
     position: absolute;
     right: 0;
+}
+
+.sustainable{
+    padding: 30px 150px;
+}
+
+@media (max-width: 480px) {
+    .sustainable {
+        padding: 10px 20px;
+    }
+}
+
+.sustainable h2 {
+    color: #333333;
+}
+
+.sustainable p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+.sustain-container {
+    display: flex;
+}
+
+.sustain:first-child{
+    width: 50%;
+    align-items: center;
+    padding-right: 30px;
+    padding-top: 150px;
+}
+
+.sustain:last-child{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 4px 1px #999 ;
+}
+
+.sustainable img {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+@media (max-width: 480px) {
+    .sustain-container {
+        display: block;
+    }
+
+    .sustain:first-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.sustain:last-child{
+    width: 100%;
+}
+}
+.sustain-button {
+    padding: 10px 20px;
+    color: #001F3F;
+    border-radius: 10px;
+    border: 2px solid #001f3f;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: translateY 1s ease-in-out,
+        color .2s ease-in-out,
+        background-color .2s ease-in-out;
+}
+
+@media (max-width: 480px) {
+    .sustain-button {
+        padding: 8px 16px;
+        font-size: 20px;
+        border-radius: 5px;
+        margin: 5px 0px 20px 0px;
+    }
+}
+
+.sustain-button:hover {
+    color: white;
+    background-color: #001F3F;
+}
+
+.sustain-button:active {
+    transform: translateY(3px);
 }
