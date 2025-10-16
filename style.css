@@ -668,6 +668,12 @@ input::placeholder {
         padding: 0;
     }
 
+    .contact-iconic p {
+    font-size: .9rem;
+    color: #555;
+    padding: 0rem 2rem .5rem .9rem;
+}
+
     .contact-iconic {
         width: 100%;
     }
